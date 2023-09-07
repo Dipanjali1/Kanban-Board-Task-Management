@@ -1,70 +1,62 @@
-# Frontend Mentor - Kanban task management web app solution
-
-- [this project YouTube video Tutorial](https://www.youtube.com/watch?v=3RWMktZNsJQ&t=1707s)
-
-This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+# Kanban Board for Task Management
 
 ## Overview
 
-### The challenge
+This project is a Kanban board application inspired by platforms like Trello. It allows users to seamlessly manage tasks across different stages of completion. The application provides a user-friendly interface for creating, editing, and deleting tasks, as well as moving them between the To Do, Doing, and Done categories. It also offers a responsive design for mobile devices.
 
-Users should be able to:
+![Kanban Board Screenshot](screenshot.png)
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Create, read, update, and delete boards and tasks
-- Receive form validations when trying to create/edit boards and tasks
-- Mark subtasks as complete and move tasks between columns
-- Hide/show the board sidebar
+You can access the live demo of the application [here](https://your-live-demo-url.com).
 
-Expected Behaviour:
+## Features
 
-- Boards
-  - Clicking different boards in the sidebar will change to the selected board.
-  - Clicking "Create New Board" in the sidebar opens the "Add New Board" modal.
-  - Clicking in the dropdown menu "Edit Board" opens up the "Edit Board" modal where details can be changed.
-  - Columns are added and removed for the Add/Edit Board modals.
-  - Deleting a board deletes all columns and tasks and requires confirmation.
-- Columns
-  - A board needs at least one column before tasks can be added. If no columns exist, the "Add New Task" button in the header is disabled.
-  - Clicking "Add New Column" opens the "Edit Board" modal where columns are added.
-- Tasks
-  - Adding a new task adds it to the bottom of the relevant column.
-  - Updating a task's status will move the task to the relevant column.
+### 1. Homepage
 
-Bonus:
+- The homepage displays all tasks, organized by their status groups: To Do, Doing, and Done.
 
-- The tasks can be dragged and dropped to a new column.
+### 2. Task Card
 
-### Screenshot
+- Each task is presented in a card format, showcasing the task title and description.
 
-![Screenshot](<./public/screenshots/Screen%20Shot%202023-03-29%20at%201.40.56%20PM%20(2).png>)
+### 3. Add Task
 
-### Links
+- Users can create new tasks using an integrated form that prompts them for the title and description.
 
-- Live Site URL: [link](https://kanban-task-management-react-tailwind.vercel.app/)
+### 4. Edit Task
 
-### Built with
+- An option is provided to edit an existing task's title and description.
 
-- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+### 5. Delete Task
+
+- The application allows users to permanently remove a task.
+
+### 6. Task Status
+
+- Users can effortlessly drag and drop tasks between the To Do, Doing, and Done categories to update their status.
+
+### 7. Responsive Design
+
+- The application is fully functional and visually coherent on mobile devices, ensuring a seamless user experience.
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/kanban-board.git
+   
+2. The application will be available at `http://localhost:3000` in your web browser.
+
+## Backend API
+
+The backend API for this project supports CRUD (Create, Read, Update, Delete) operations for tasks. Tasks are stored in a database.
+
+## Built with
+
+- CSS Fraamework
 - Drag and Drop API
-- [React](https://reactjs.org/) - JS library
-- [Redux](https://redux.js.org/) - State management tool
-
-### Useful resources
-
-- [Drag and Drop quick tutorial](https://www.youtube.com/watch?v=u65Y-vqYNAk)
-
-## Author
-
-- LinkedIn - [Hesam DearBoy](https://www.linkedin.com/in/hesam-azizpour-23259b265/)
+- React
+- Redux
+  
