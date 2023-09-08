@@ -5,6 +5,7 @@
 This project is a Kanban board application inspired by platforms like Trello. It allows users to seamlessly manage tasks across different stages of completion. The application provides a user-friendly interface for creating, editing, and deleting tasks, as well as moving them between the To Do, Doing, and Done categories. It also offers a responsive design for mobile devices.
 
 ![Kanban Board Screenshot](screenshot.png)
+![Kanban Board Screenshot](https://github.com/Dipanjali1/screenshot.png)
 
 You can access the live demo of the application [here](https://your-live-demo-url.com).
 
